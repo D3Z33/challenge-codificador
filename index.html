@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Codificador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="assets/alura.png" alt="Alura Logo">
+    </header>
+    <main>
+        <div class="input-section">
+            <h1>Digite seu texto</h1>
+            <textarea id="input-text" spellcheck="false" placeholder="Digite seu texto aqui"></textarea>
+            <p class="validation-message">Apenas letras minúsculas e sem acento.</p>
+            <div class="buttons">
+                <button id="encrypt-btn">Criptografar</button>
+                <button id="decrypt-btn">Descriptografar</button>
+            </div>
+        </div>
+        <div class="output-section">
+            <img src="assets/pessoa.png" alt="Pessoa">
+            <div id="output-text">Nenhuma mensagem encontrada</div>
+            <button id="copy-btn">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        Seu Nome - 2024
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
