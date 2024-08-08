@@ -72,7 +72,6 @@ textarea {
     margin-top: 10px;
     resize: none;
     box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
-    spellcheck: false; /* Desativa a verificação ortográfica */
 }
 
 .buttons {
